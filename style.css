@@ -53,10 +53,8 @@ select {
 
 .scheme-color {
   display: flex;
-  flex-direction: column-reverse;
   height: 400px;
   width: 100px;
-  background-color: red;
 }
 
 .hex-code {
