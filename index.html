@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kanit&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <div class="colorInputs">
+          <input type="color" name="seed color" id="seedColor" value="#ff0080" />
+          <select name="schemes" id="schemes">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+          </select>
+          <button class="colorBtn" id="getColorBtn">Get color scheme</button>
+        </div>
+        <div class="scheme-colors-container" id="schemeColorContainer">
+          <!-- <div class="scheme-color">
+            <div class="hex-code">
+              <p>#F55AA</p>
+            </div>
+          </div>
+          <div class="scheme-color">
+            <div class="hex-code"><p>#F55AA</p></div>
+          </div>
+          <div class="scheme-color">
+            <div class="hex-code"><p>#F55AA</p></div>
+          </div>
+          <div class="scheme-color">
+            <div class="hex-code"><p>#F55AA</p></div>
+          </div>
+          <div class="scheme-color">
+            <div class="hex-code"><p>#F55AA</p></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
